@@ -1,0 +1,37 @@
+.cost-modal {
+    width: 300px;
+    border-radius: 5px;
+    background: #fff;
+    margin: 0 auto;
+    transform: translateY(-200px);
+    transition: transform .2s ease-in;
+}
+
+.cost-modal-header {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+
+.cost-modal-title {
+    font-size: 1.5rem;
+}
+
+
+.cost-modal-close {
+    cursor: pointer;
+}
+
+.cost-modal-body {
+    padding: 10px;
+}
+
+.cost-modal-body p {
+    margin: 0 0 5px;    
+}
+
+.cost-modal-footer {
+    padding: 5px 10px;
+    border-top: 1px solid #eee;
+}
